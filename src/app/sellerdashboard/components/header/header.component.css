@@ -1,0 +1,7 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: aqua;
+    padding: 1rem;
+}
