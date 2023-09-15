@@ -9,6 +9,8 @@ import { SidenavComponent } from './warehousecomponents/sidenav/sidenav.componen
 import { WarehousedashboardModule } from './warehousedashboard/warehousedashboard.module';
 import { SellerdashboardModule } from './sellerdashboard/sellerdashboard.module';
 import { HomepageComponent } from './homepage/homepage.component';
+import { DashboardModule } from './dashboard/dashboard.module';
+import { ShopComponent } from './shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,15 @@ import { HomepageComponent } from './homepage/homepage.component';
     HomeComponent,
     InventoryComponent,
     SidenavComponent,
-    HomepageComponent
+    HomepageComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     WarehousedashboardModule,
-    SellerdashboardModule
+    SellerdashboardModule,
+    DashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

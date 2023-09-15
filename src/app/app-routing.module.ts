@@ -5,11 +5,13 @@ import { InventoryComponent } from './warehousecomponents/inventory/inventory.co
 import { SidenavComponent } from './warehousecomponents/sidenav/sidenav.component';
 // import { WarehouseDashboardComponent } from './warehouse-dashboard/warehouse-dashboard/warehouse-dashboard.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { ShopComponent } from './shop/shop.component';
 
 const routes: Routes = [
   { path: '', component:HomepageComponent },
   { path: 'profile', component:InventoryComponent },
-  { path: 'sidenav', component:SidenavComponent }
+  { path: 'sidenav', component:SidenavComponent },
+  { path: 'shop', component:ShopComponent }
 ];
 
 @NgModule({
